@@ -1,0 +1,21 @@
+= Tc1001s.201 Herramientas computacionales: el arte de la programación
+
+_Tecnológico de Monterrey, Estado de México._
+
+Este proyecto contiene todos los archivos fuente que el profesor irá generando en clase durante la segunda Semana Tec del semestre agosto-diciembre de 2020.
+
+Los archivos se pueden consultar directamente en este mismo sitio, o se puede usar `git` para obtener una copia local de estos. En este último caso se deben seguir los siguiente pasos:
+
+1. Clonar este repositorio. Desde la terminal, teclear:
+    
+    git clone https://github.com/ariel-ortiz/202013-tc1001s.201.git tc1001s
+    
+2. Cambiarse al directorio `tc1001s`:
+    
+    cd tc1001s
++    
+En dicho directorio encontrás todos los archivos fuente del proyecto.
+    
+3. Cada vez que el profesor realice modificaciones a archivos existentes o agregue archivos nuevos, será necesario hacer un *pull* al repositorio. En la terminal y desde el directorio `tc1001s` teclear: 
+    
+    git pull
