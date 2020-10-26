@@ -35,7 +35,7 @@ Limpiar la pantalla de la terminal (opcionalmente pueden usar Ctrl+L).
 
 ## Comando `less`
 
-Visualizar contenido de un archivo por página. Presionar la tecla `q` (_quit_) para salir, para navegar usar flecha arriba, flecha abajo, barra espaciador, enter, Shift-G para ir al final del archvivo.
+Visualizar contenido de un archivo por página. Presionar la tecla `q` (_quit_) para salir, para navegar usar flecha arriba, flecha abajo, barra espaciador, enter. Presionar Shift-G para ir al final del archivo y la tecla `g` para ir al principio.
 
     less archivo
     less /proc/cpuinfo
