@@ -119,8 +119,6 @@ Ejecutar comando con privilegio de administrador.
 
     sudo apt install cowsay
 
-    sudo
-
 ## Comodines (_wildcards_)
 
 * Asterisco (`*`) hace _match_ con cualquier secuencia de caracteres.
