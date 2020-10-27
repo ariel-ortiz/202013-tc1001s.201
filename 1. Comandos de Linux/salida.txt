@@ -1,0 +1,5 @@
+Dame un número: 
+El número que ingresaste es: 10
+Dame otro número: 
+El otro número fue: 25
+La suma es: 35

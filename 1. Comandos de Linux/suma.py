@@ -1,0 +1,7 @@
+x = int(input('Dame un número: '))
+print()
+print(f'El número que ingresaste es: {x}')
+y = int(input('Dame otro número: '))
+print()
+print(f'El otro número fue: {y}')
+print(f'La suma es: {x + y}')
