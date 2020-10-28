@@ -5,18 +5,33 @@
   </head>
   <body>
     <h1>Piedra, papel y tijeras</h1>
+    <ul>
+      <li>
+        Tiro jugador: {{tiro_jugador}}
+      </li>
+      <li>
+        Tiro de la compu: {{tiro_compu}}
+      </li>
+    </ul>
+
     <p>
-      Tiro jugador: {{tiro_jugador}}
+      <em>¡{{mensaje}}!</em>
     </p>
-    <p>
-      Tiro compu: {{tiro_compu}}
-    </p>
-    <p>
-      Resultado: {{resultado}}
-    </p>
-    <p>
-      Mensaje: {{mensaje}}
-    </p>
+
+    {% if resultado == 1 %}
+      <img src="/static/feliz.png" width="64" height="64" />
+      <h2>
+        Gasanste, ¡felicidades!
+      </h2>
+    {% elif resultado == -1 %}
+      <img src="/static/triste.png" width="64" height="64" />
+      <h2>
+        Perdiste, ¡eres un loser!
+      </h2>
+    {% else %}
+      <img src="/static/neutral.png" width="64" height="64" />
+    {% endif %}
+
     <p>
       <a href="/">Volver a jugar</a>
     </p>
